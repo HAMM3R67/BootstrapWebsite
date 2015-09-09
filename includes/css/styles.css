@@ -47,6 +47,10 @@ Notes:	 Hand coded for Udemy.com
     margin-top: 60px;
 }
 
+.carousel-caption {
+    font-size: 24px;
+}
+
 #myCarousel .item { height: 400px; }
 
 #slide1 {
