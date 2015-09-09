@@ -43,6 +43,9 @@ Notes:	 Hand coded for Udemy.com
 /* --------------------------------------
    Carousel
    -------------------------------------- */
+#myCarousel {
+    margin-top: 60px;
+}
 
 #myCarousel .item { height: 400px; }
 
