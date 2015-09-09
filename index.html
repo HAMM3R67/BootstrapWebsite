@@ -11,7 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 		
 		<!-- Bootstrap CSS -->
-		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
 		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
 		
 		<!-- Custom CSS -->
@@ -30,6 +30,12 @@
 			
 			<div class="container">
 				
+				<button class="navbar-toggle" data-target="navbar-responsive-collapse" data-toggle="collapse" type="button">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				
 				<a class="navbar-brand" href="/"><img src="images/logo.png" alt="Your Logo"></a>
 				
 				<div class="nav-collapse collapse navbar-responsive-collapse">
@@ -38,8 +44,27 @@
 							<a href="#">Home</a>
 						</li>
 						
-						<li>
-							<a href="#">Services</a>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Services<strong class="caret"></strong></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#"> Web Development</a>
+								</li>
+								<li>
+									<a href="#"> Web Design</a>
+								</li>
+								<li>
+									<a href="#"> Ice Cream</a>
+								</li>
+								<li class="divider"></li>
+								<li class="dropdown-header"> More Services</li>
+								<li>
+									<a href="#"> Content Creation</a>
+								</li>
+								<li>
+									<a href="#"> Cake</a>
+								</li>
+							</ul><!--end dropdown menu-->
 						</li>
 					</ul>
 					
@@ -50,8 +75,24 @@
 					</form><!-- end navbar-form -->
 					
 					<ul class="nav navbar-nav pull-right">
-						<li>
-							<a href="#"><span class="glyphicon glyphicon-user"></span>My Account</a>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span>My Account<strong class="caret"></strong></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#"><span class="glyphicon glyphicon-wrench"></span> Settings</a>
+								</li>
+								<li>
+									<a href="#"><span class="glyphicon glyphicon-refresh"></span> Update Profile</a>
+								</li>
+								<li>
+									<a href="#"><span class="glyphicon glyphicon-briefcase"></span> Billing</a>
+								</li>
+								<li class="divider"></li>
+								
+								<li>
+									<a href="#"><span class="glyphicon glyphicon-off"></span> Sign Out</a>
+								</li>
+							</ul>
 						</li>
 					</ul><!-- end nav pull-right -->
 						
