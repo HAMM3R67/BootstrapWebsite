@@ -103,10 +103,16 @@
 		
 		<div class="carousel slide" id="myCarousel">
 		
+			<!-- indicators -->
+			<ol class="carousel-indicators">
+				<li class="active" data-slide-2="0" data-target="#myCarousel"></li>
+				<li data-slide-2="1" data-target="#myCarousel"></li>
+				<li data-slide-2="2" data-target="#myCarousel"></li>
+			</ol>
 		<!--Wrapper for slides-->
 		
 		<div class="carousel-inner">			
-			<div class="item" id="slide 1">
+			<div class="item active" id="slide 1">
 				<div class="carousel-caption">
 					<h4>Bootstrap 3</h4>
 					<p>Learn how to build your first responsive website with the brand new Twitter Bootstrap 3</p>
@@ -128,6 +134,11 @@
 			</div> <!-- end item -->
 			
 		</div><!--end Carousel inner-->
+		
+		<!-- Controls -->
+		<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+		
+		<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
 		
 		</div><!-- myCarousel -->
 		
